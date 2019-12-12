@@ -1,10 +1,10 @@
 <?php
 
-$databaseHost = 'localhost';
+$databaseHost = '35.196.120.242';
 $databaseName = 'test';
 $databaseUsername = 'root';
-$databasePassword = 'root';
+$databasePassword = 'kEaECujd6vnZCp';
 
-$mysqli = mysqli_connect($databaseHost, $databaseUsername, "", $databaseName); 
+$mysqli = mysqli_connect($databaseHost, $databaseUsername, $databasePassword, $databaseName); 
  
 ?>
